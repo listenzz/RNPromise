@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RNPromise'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Promise wrapper on iOS platform for ReactNative.'
   
   s.homepage         = 'https://github.com/listenzz/RNPromise'
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RNPromise/Classes/**/*'
-  
+  s.dependency "React"
   # s.resource_bundles = {
   #   'RNPromise' => ['RNPromise/Assets/*.png']
   # }
